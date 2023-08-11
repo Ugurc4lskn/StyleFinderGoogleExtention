@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stil Bulucu</title>
+
+    <style>
+    body {
+        background: #141414;
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    h1 {
+        color: white;
+        background-color: #252525;
+        padding: 10px;
+    }
+
+    span {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Stil Bulucu</h1> <br>
+    <span>Web sayfalarında bulunan tagların stil özelliklerini bulan bir google chrome eklentisi. </span>
+    <script src="popup.js"></script>
+</body>
+</html>

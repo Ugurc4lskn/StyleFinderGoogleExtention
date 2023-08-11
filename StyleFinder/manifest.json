@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Style Finder",
+  "version": "1.0",
+  "description": "Web sitelerinde bulunan tagların stil özelliklerini gösteren bir google eklentisi",
+  "permissions": ["activeTab"],
+  "icons": {
+    "18": "images/18.png",
+    "24": "images/24.png",
+    "48": "images/48.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+
+  }
+
+}
+
